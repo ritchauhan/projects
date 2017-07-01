@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\.git">
+			<item value="false"/>
+			<item value="rkumar &lt;rkumar@DA15010045.global.avaya.com&gt;"/>
+			<item value="&quot;test commit&quot;"/>
+			<item value="rkumar &lt;rkumar@DA15010045.global.avaya.com&gt;"/>
+			<item value="e0fe1b69f6d2422f1b194eac9afaba9cbf423cd8"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="false" key="sortItemState"/>
+		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>
