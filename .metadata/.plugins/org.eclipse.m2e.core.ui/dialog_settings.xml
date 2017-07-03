@@ -14,11 +14,13 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="kafka_demo"/>
 			<item value="java-dev"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="kafka_demo"/>
 			<item value="java-dev"/>
 		</list>
 		<list key="version">

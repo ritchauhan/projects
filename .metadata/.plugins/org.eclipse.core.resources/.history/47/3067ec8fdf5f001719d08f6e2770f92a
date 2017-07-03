@@ -1,0 +1,7 @@
+package com.demo.kafka.producer;
+//import java util properties
+import java.util.Properties;
+import
+public class SimpleProducer {
+
+}

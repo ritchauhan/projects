@@ -1,0 +1,5 @@
+package com.demo.kafka.producer;
+import kafka.javaapi.producer.Producer;;
+public class SimpleProducer {
+
+}

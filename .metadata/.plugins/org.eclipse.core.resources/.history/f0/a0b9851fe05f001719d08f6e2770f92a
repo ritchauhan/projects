@@ -1,0 +1,20 @@
+package com.demo.kafka.producer;
+//import java util properties
+import java.util.Properties;
+// import simple producer package
+import org.apache.kafka.clients.producer.Producer;
+// import kafka producer
+import org.apache.kafka.clients.producer.KafkaProducer;
+// import ProductRecord packages
+import org.apache.kafka.clients.producer.ProducerRecord;
+
+/**
+ * 
+ * class for handling messages and sending to broker to consume
+ * 
+ * @author rkumar
+ *
+ */
+public class SimpleProducer {
+
+}
