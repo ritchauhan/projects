@@ -35,13 +35,4 @@ public class SimpleConsumer {
 				System.out.printf("offset = %d, key = %s, value = %s", record.offset(), record.key(), record.value());
 		}
 	}
-	
-	/**
-	 * Main function
-	 * @param args
-	 */
-	public static void main(String args[]) {
-		SimpleConsumer simpleConsumer = new SimpleConsumer();
-		simpleConsumer.consumeProduct();
-	}
 }

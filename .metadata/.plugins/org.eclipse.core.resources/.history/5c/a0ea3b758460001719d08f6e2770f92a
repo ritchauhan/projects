@@ -36,12 +36,7 @@ public class SimpleConsumer {
 		}
 	}
 	
-	/**
-	 * Main function
-	 * @param args
-	 */
 	public static void main(String args[]) {
-		SimpleConsumer simpleConsumer = new SimpleConsumer();
-		simpleConsumer.consumeProduct();
+		
 	}
 }

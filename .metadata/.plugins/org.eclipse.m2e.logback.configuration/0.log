@@ -326,3 +326,99 @@
 2017-07-03 17:14:31,121 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
 2017-07-03 17:14:31,124 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-07-03 17:14:31,128 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-03 17:19:34,444 [Worker-58] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo
+2017-07-03 17:19:34,447 [Worker-58] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2017-07-04 09:41:10,667 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:41:10,672 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 09:41:10,678 [Worker-76] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:41:10,682 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 09:41:17,267 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:41:17,276 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 09:41:17,286 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:41:17,291 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 09:43:18,361 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:43:18,365 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 09:43:18,368 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:43:18,374 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 09:43:31,388 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:43:31,392 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 09:43:31,395 [Worker-80] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:43:31,399 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 09:43:48,789 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:43:48,792 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 09:43:48,796 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:43:48,799 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 09:45:19,109 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:45:19,112 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 09:45:19,115 [Worker-81] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 09:45:19,118 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:00:05,386 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:00:05,402 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:00:05,408 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:00:05,413 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:00:56,368 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:00:56,372 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:00:56,375 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:00:56,379 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:01:59,147 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:01:59,151 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:01:59,154 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:01:59,158 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:02:09,986 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:02:09,990 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:02:10,010 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:02:10,015 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:02:20,398 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:02:20,403 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:02:20,407 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:02:20,412 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:02:51,788 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:02:51,793 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:02:51,796 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:02:51,802 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:03:30,593 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:03:30,597 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:03:30,600 [Worker-97] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:03:30,603 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:03:36,484 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:03:36,488 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:03:36,492 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:03:36,498 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:03:43,771 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:03:43,778 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:03:43,781 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:03:43,798 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:03:57,033 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:03:57,037 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:03:57,041 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:03:57,045 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:04:27,772 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:04:27,776 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:04:27,779 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:04:27,783 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:07:01,454 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:07:01,468 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:07:01,471 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:07:01,491 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:15:49,849 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:15:49,853 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:15:49,856 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:15:49,859 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:16:08,012 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:16:08,016 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:16:08,018 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:16:08,021 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:16:14,720 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:16:14,724 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:16:14,728 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:16:14,734 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:16:30,141 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:16:30,148 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:16:30,154 [Worker-107] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:16:30,158 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:16:47,737 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:16:47,741 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\main\resources
+2017-07-04 12:16:47,745 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-07-04 12:16:47,750 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo\src\test\resources
+2017-07-04 12:24:02,208 [Worker-115] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\RKUMAR\Desktop\self-help\dev-projects\projects\kafka_demo
+2017-07-04 12:24:02,209 [Worker-115] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
