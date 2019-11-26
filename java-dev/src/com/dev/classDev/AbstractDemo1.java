@@ -10,5 +10,5 @@ package com.dev.classDev;
 public abstract class AbstractDemo1 extends AbstractDemo {
 	public abstract void go();
 	public abstract void show1();
-	
+	public void testImplementation() {};
 }

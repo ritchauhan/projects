@@ -4,9 +4,9 @@ package com.dev.classDev;
  * 
  * @author rkumar
  * Abstract implementation class 
- * 1. Sub class need to implement all the function of Abstract class
+ * 1. Sub class need to implement all the abstract function of Abstract class
  * 2. If Abstract class extends another abstract class then that class 
- *    functions also need to be implemented in sunclass
+ *   abstract functions also need to be implemented in subclass
  *
  */
 public class AbstractImplementation extends AbstractDemo1 {
