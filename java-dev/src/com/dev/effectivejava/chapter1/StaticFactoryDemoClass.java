@@ -1,3 +1,5 @@
+package com.dev.effectivejava.chapter1;
+
 
 /**
  * Class to demo static factory usage

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+<!--  Inheritance demo  -->
+<bean id="parentDemo" class="com.spring.basic.SpringInheritanceSubclass">
+	<property name="springInhertanceDemo">
+		<ref bean="sp1" />
+	</property>
+</bean>
+
+<bean id="child" class="com.spring.basic.SpringInheritanceSubclass" parent="parentDemo">
+	<property name="springInhertanceDemo2">
+		<ref bean="sp2"/>
+	</property>
+</bean>
+
+<bean id="subchild" class="com.spring.basic.SpringInheritanceSubclass" parent="child">
+	<property name="springInhertanceDemo3">
+		<ref bean="sp3"/>
+	</property>
+</bean>
+
+<!--  List inheritance demo  -->
+<bean id="list1" class="com.spring.basic.SpringInheritanceSubclass">
+	<property name="spIdList">
+		<list>
+		<ref bean="sp2"/>
+		</list>
+	</property>
+</bean>
+
+<bean id="list2" class="com.spring.basic.SpringInheritanceSubclass" parent="list1" >
+	<property name="spIdList">
+		<list merge="true">
+		<ref bean="sp1"/>
+		</list>
+	</property>
+</bean>
+
+<bean id="sp1" class="com.spring.basic.SpringInhertanceDemo">
+	<property name="name" value="sp1"/>
+</bean>
+
+<bean id="sp2" class="com.spring.basic.SpringInhertanceDemo">
+	<property name="name" value="sp2"/>
+</bean>
+
+<bean id="sp3" class="com.spring.basic.SpringInhertanceDemo">
+	<property name="name" value="sp3"/>
+</bean>
+
+</beans>
