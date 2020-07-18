@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestDemo",
+            "request": "launch",
+            "mainClass": "com.dev.lambda.TestDemo",
+            "projectName": "java-dev"
+        }
+    ]
+}

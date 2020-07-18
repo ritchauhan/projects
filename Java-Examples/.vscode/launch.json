@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "com.dev.java8.lambda.Hello"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BasicTest",
+            "request": "launch",
+            "mainClass": "com.dev.basic.BasicTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BasicTest",
+            "request": "launch",
+            "mainClass": "com.basic.BasicTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "Hello"
+        }
+    ]
+}

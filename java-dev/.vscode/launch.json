@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demo",
+            "request": "launch",
+            "mainClass": "com.dev.lambda.Demo",
+            "projectName": "java-dev"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestDemo",
+            "request": "launch",
+            "mainClass": "com.dev.lambda.TestDemo",
+            "projectName": "java-dev"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "com.dev.lambda.Test",
+            "projectName": "java-dev"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LambdaDemo",
+            "request": "launch",
+            "mainClass": "com.dev.lambda.LambdaDemo",
+            "projectName": "java-dev"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OverrideDemo",
+            "request": "launch",
+            "mainClass": "com.dev.oops.OverrideDemo",
+            "projectName": "java-dev"
+        }
+    ]
+}

@@ -35,7 +35,7 @@ public class LambdaDemo {
 			
 			@Override
 			public void abstractFunc(int x) {
-				System.out.println("value of x : "+x);
+				System.out.println("value of x is : "+x);
 				
 			}
 		};
