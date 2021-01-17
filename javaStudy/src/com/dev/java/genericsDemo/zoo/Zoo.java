@@ -9,6 +9,14 @@ public class Zoo {
         System.out.println(cage.getAnimal1());
         System.out.println(cage1.getAnimal2());
 
+        Lion lion = new Lion();
+        Lion lion1 = new Lion();
+
+        lion.setType("King");
+        lion1.setType("Wild");
+
+        System.out.println(Cage.isCompatible(lion, lion1));
+
 //        Cage<Integer> test = new Cage<Integer>(); // this will not be allowed since it is not Animal type.
     }
 }
