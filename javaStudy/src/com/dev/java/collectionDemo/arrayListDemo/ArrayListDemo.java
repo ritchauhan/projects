@@ -16,6 +16,7 @@ public class ArrayListDemo {
 //        list.remove("Element 0");
 //        list.removeAll(list);
         list.remove(0);
+        list.add(0, "Element 0 added");
 
         // get
 //        System.out.println(list.get(0));
