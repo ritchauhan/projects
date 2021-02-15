@@ -26,3 +26,7 @@ if(a==="10") {
 } else {
     console.log("value is unequal")
 }
+
+var res = '10' + true;
+
+console.log(res)
