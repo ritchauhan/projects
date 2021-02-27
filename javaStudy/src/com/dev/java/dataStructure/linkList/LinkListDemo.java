@@ -6,17 +6,23 @@ package com.dev.java.dataStructure.linkList;
 public class LinkListDemo {
     public static void main(String[] args) {
         LinkListImplementation linkListImplementation = new LinkListImplementation();
+        linkListImplementation.append(30);
         linkListImplementation.append(10);
         linkListImplementation.append(20);
         linkListImplementation.append(30);
         linkListImplementation.append(40);
+        linkListImplementation.append(30);
+        linkListImplementation.append(50);
+        linkListImplementation.append(60);
+//        linkListImplementation.printAllNodes();
+        linkListImplementation.removeFromKList(30);
 //        linkListImplementation.preAppend(50);
 //        linkListImplementation.preAppend(60);
 //        linkListImplementation.preAppend(20);
 //        linkListImplementation.preAppend(10);
-        linkListImplementation.insertIndexAt(25, 20 );
-        linkListImplementation.delete(30);
-        linkListImplementation.printAllNodes();
+//        linkListImplementation.insertIndexAt(25, 20 );
+//        linkListImplementation.delete(30);
+//        linkListImplementation.printAllNodes();
     }
 }
 
@@ -43,6 +49,24 @@ class LinkListImplementation {
             currentNode = currentNode.next;
         }
         currentNode.next = newNode;
+        return this;
+    }
+    public LinkListImplementation removeFromKList(int testValue) {
+        Node currentNode = this.head;
+        Node node = null;
+        while (currentNode != null) {
+            if(currentNode.value != testValue) {
+               Node newNode = new Node(currentNode.value);
+               newNode.next = null;
+               if(node == null) {
+                   node = newNode;
+               } else {
+                   node.value = currentNode.value;
+                   node.next = newNode;
+               }
+            }
+            currentNode = currentNode.next;
+        }
         return this;
     }
 
