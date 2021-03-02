@@ -7,34 +7,24 @@ import java.util.Stack;
  */
 public class UnbalancePattern {
     static boolean checkPattern(String str) {
-        Stack<Character> characters = new Stack<>();
-        if(str.length() > 0) {
-            for (char c : str.toCharArray()) {
-                if (c == '(' || c == '{' || c == '[') {
-                    characters.push(c);
-                } else if (c == ')') {
-                    if (characters.pop() != '(') {
-                        return false;
-                    }
-                } else if (c == '}') {
-                    if (characters.pop() != '{') {
-                        return false;
-                    }
-                } else if (c == ']') {
-                    if (characters.pop() != '[') {
-                        return false;
-                    }
-                }
+        Stack<Character> chars = new Stack<Character>();
+        for (char c: str.toCharArray()) {
+            if (c=='(') {
+                chars.push(')');
+            } else if (c== '{') {
+                chars.push('}');
+            } else if (c=='[') {
+                chars.push(']');
+            } else if (chars.isEmpty() || c!= chars.pop()){
+                return false;
             }
-        } else {
-            return false;
         }
-        return characters.isEmpty();
+        return chars.isEmpty();
     }
     public static void main(String[] args) {
         String str = "{Ab(s)}as[asa]";
         String str1 = "{ab(bc})";
-        String str2 = "abdsf";
+        String str2 = "[][]";
         System.out.println(checkPattern(str2));
     }
 }
