@@ -67,7 +67,7 @@ public class SameTree {
     }
 
     /**
-     * 
+     *
      * @param tree1
      * @param tree2
      * @return
