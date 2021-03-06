@@ -84,6 +84,38 @@ public class TreeImplementation {
         }
     }
 
+    // searching in bst
+    boolean find(int data) {
+        Node currentNode = root;
+        if (currentNode == null) {
+            return false;
+        }
+        while (currentNode != null) {
+            if (currentNode.data == data) {
+                return true;
+            }
+            if (data < currentNode.data) {
+                currentNode = currentNode.left;
+            } else {
+                currentNode = currentNode.right;
+            }
+        }
+        return false;
+    }
+
+    boolean findRecursive (Node node, int data) {
+        if (node == null) {
+            return false;
+        }
+        if (node.data == data) {
+            return true;
+        } else if (data < node.data) {
+            return findRecursive(node.left, data);
+        } else {
+            return findRecursive(node.right, data);
+        }
+    }
+
     public static void main(String[] args) {
         TreeImplementation treeImplementation = new TreeImplementation();
         treeImplementation.add(9);
@@ -98,6 +130,13 @@ public class TreeImplementation {
         treeImplementation.inOrderTree(); // 1 4 6 9 15 20 170
         System.out.println();
         treeImplementation.postOrderTree(); // 1 6 4 15 170 20 9
+        System.out.println();
+        System.out.println(treeImplementation.find(6)); // true
+        System.out.println(treeImplementation.find(30)); // false
+        System.out.println(treeImplementation.
+                findRecursive(treeImplementation.root, 15)); // true
+        System.out.println(treeImplementation.
+                findRecursive(treeImplementation.root, 50)); // false
     }
 
 }
