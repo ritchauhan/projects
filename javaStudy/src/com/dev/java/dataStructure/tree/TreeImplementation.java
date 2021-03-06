@@ -116,6 +116,18 @@ public class TreeImplementation {
         }
     }
 
+    public static Node getTree() {
+        TreeImplementation treeImplementation = new TreeImplementation();
+        treeImplementation.add(9);
+        treeImplementation.add(4);
+        treeImplementation.add(6);
+        treeImplementation.add(20);
+        treeImplementation.add(170);
+        treeImplementation.add(15);
+        treeImplementation.add(1);
+        return treeImplementation.root;
+    }
+
     public static void main(String[] args) {
         TreeImplementation treeImplementation = new TreeImplementation();
         treeImplementation.add(9);
