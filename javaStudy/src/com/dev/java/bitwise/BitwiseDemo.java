@@ -35,7 +35,7 @@ public class BitwiseDemo {
         System.out.println(d>>>2); // 32 right shift by 2 and 0 on left since d=128
         System.out.println(e>>>2); // 1073741792 0011 1111 1111 1111 1111 1111 0010 0000
 
-        // 2^30 power 
+        // 2^30 power
         System.out.println(Math.pow(2, 30)); // 1.073741824E9
 
 

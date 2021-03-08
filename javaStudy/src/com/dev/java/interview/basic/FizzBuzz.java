@@ -1,4 +1,4 @@
-package com.dev.java.interview;
+package com.dev.java.interview.basic;
 
 /**
  * Write a program to print 1 to n

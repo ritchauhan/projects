@@ -1,4 +1,4 @@
-package com.dev.java.interview;
+package com.dev.java.interview.string;
 import java.util.List;
 import java.util.Arrays;
 

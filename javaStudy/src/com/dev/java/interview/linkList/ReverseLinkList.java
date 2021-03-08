@@ -1,4 +1,4 @@
-package com.dev.java.interview;
+package com.dev.java.interview.linkList;
 
 public class ReverseLinkList {
 }

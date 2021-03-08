@@ -1,4 +1,4 @@
-package com.dev.java.interview;
+package com.dev.java.interview.string;
 
 public class ReverseString {
     public static void main(String[] args) {

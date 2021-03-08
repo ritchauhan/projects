@@ -1,4 +1,4 @@
-package com.dev.java.interview;
+package com.dev.java.interview.basic;
 
 /**
  * Basic interview question
