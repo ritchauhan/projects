@@ -20,7 +20,14 @@ public class TwoDArray {
         return false;
     }
 
+    /**
+     * this will break for negative cases.
+     * @param matrix
+     * @param target
+     * @return
+     */
     private static boolean getOptimalResult(int[][] matrix, int target) {
+        System.out.println(matrix.length);
         if (matrix.length == 0) {
             return false;
         }
@@ -28,7 +35,8 @@ public class TwoDArray {
         int columnLength = matrix[0].length;
         int row = rowLength-1;
         int col = 0;
-        while (row > 0 && col < columnLength ) {
+        while (row >= 0 && col < columnLength ) {
+            System.out.println(matrix[row][col]);
             if (matrix[row][col] > target) {
                 row--;
             } else if (matrix[row][col] < target) {
@@ -49,9 +57,9 @@ public class TwoDArray {
                 {10, 13, 14, 17, 24 },
                 {18, 21, 23, 26, 30}
         };
-        int[][] matrix1 = {{1}};
+        int[][] matrix1 = {{-5}};
 //        boolean result = getResult(matrix, 20);
-        boolean optimalResult = getOptimalResult(matrix1, 5);
+        boolean optimalResult = getOptimalResult(matrix1, -5);
         System.out.println(optimalResult);
     }
 }
