@@ -1,15 +1,5 @@
 package com.dev.java.dataStructure.tree;
 
-class Node {
-    int data;
-    Node left;
-    Node right;
-    public Node() {}
-    public Node(int data) {
-        this.data = data;
-    }
-}
-
 /**
  * Binary search tree implementation with insert
  */
