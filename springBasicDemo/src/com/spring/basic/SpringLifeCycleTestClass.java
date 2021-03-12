@@ -9,7 +9,7 @@ public class SpringLifeCycleTestClass {
 
 	public static void main(String args[]) {
 		applicationContext = new ClassPathXmlApplicationContext("spring.xml");
-		applicationContext.registerShutdownHook();
+		applicationContext.registerShutdownHook(); // it will be used for destroy the context.
 		SpringLifeCycleDemo springLifeCycleDemo = 
 				(SpringLifeCycleDemo) applicationContext.getBean("lifecycleDemo");
 		System.out.println(springLifeCycleDemo.getName());

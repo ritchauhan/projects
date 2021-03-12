@@ -13,7 +13,7 @@ public class ModuleTestClass {
 		
 		// inheritance demo
 		SpringInheritanceSubclass springInheritanceSubclass = 
-				(SpringInheritanceSubclass) applicationContext.getBean("subchild");
+				(SpringInheritanceSubclass) applicationContext.getBean("child");
 		springInheritanceSubclass.showNames();
 		
 		//list inheritance demo

@@ -1,7 +1,14 @@
 package com.spring.basic.annotationdemo;
 
-import org.springframework.beans.factory.annotation.Required;
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Required;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Employee {
 	
 	private String name;
@@ -29,7 +36,9 @@ public class Employee {
 		return address;
 	}
 
-	@Required
+//	@Required
+	@Autowired
+	@Qualifier(value="addr")
 	public void setAddress(Address address) {
 		this.address = address;
 	}
@@ -38,5 +47,15 @@ public class Employee {
 	
 	public void showAddress() {
 		System.out.println(" City : "+address.getCity() + " PinCode : "+address.getPincode());
+	}
+	
+	@PostConstruct
+	public void initialize() {
+		System.out.println("Initialize method of annotation implementation ..");
+	}
+	
+	@PreDestroy
+	public void destroyContruct() {
+		System.out.println("Annotation destroy methods ..");
 	}
 }

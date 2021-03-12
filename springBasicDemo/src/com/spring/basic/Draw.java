@@ -16,15 +16,16 @@ public class Draw {
 		// BeanFactory beanFactory = new XmlBeanFactory(new FileSystemResource("spring.xml"));
 		
 		applicationContext = new ClassPathXmlApplicationContext("spring.xml");
-//		boolean isbean = applicationContext.containsBean("testBeanScope");
-//		System.out.println("is bean : "+isbean);
+		boolean isbean = applicationContext.containsBean("testBeanScope");
+		System.out.println("is bean : "+isbean);
 //		Traingle traingle = (Traingle) applicationContext.getBean("traingle-name");
 //		traingle.draw();
 //		
 		// Object Injection
 		Circle circle = (Circle) applicationContext.getBean("circle-alias");
 		circle.draw();
-		circle.showTestBeanScope();
+		
+//		circle.showTestBeanScope();
 		
 		// AutoWire 
 		
@@ -35,6 +36,7 @@ public class Draw {
 //		AutowireDemo autowireDemo = (AutowireDemo) applicationContext.
 //				getBean("autowiredemo");
 //		autowireDemo.draw();
+		circle.ShowContextValues();
 	}
 
 }

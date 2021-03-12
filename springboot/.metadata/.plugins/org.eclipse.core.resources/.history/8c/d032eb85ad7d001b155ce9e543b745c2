@@ -1,0 +1,12 @@
+package com.dev.controller;
+
+import com.dev.domain.Topic;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TopicController {
+	
+	public List<Topic> getTopics() {
+		
+	}
+}

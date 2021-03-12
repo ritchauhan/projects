@@ -1,0 +1,14 @@
+package testApp.com.app;
+
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MainAppClass {
+
+	public static void main(String[] args) {
+		
+		SpringBootApplication.run(MainAppClass.class, args);
+
+	}
+
+}

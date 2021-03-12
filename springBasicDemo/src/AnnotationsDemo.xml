@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
-        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
 
-<beans>
 	
-	<bean id="employee" class="com.spring.basic.annotationdemo.Employee">
+	<!-- <bean id="employee" class="com.spring.basic.annotationdemo.Employee">
 		<property name="name" value="Ritesh Kumar"/>
 		<property name="empId" value="7162" />
-		<!--  <property name="address">
-			<ref bean="addr" />
-		</property> -->
-	</bean>
+	</bean> -->
 	
-	<bean id="addr" class="com.spring.basic.annotationdemo.Address">
+	<bean id="address1" class="com.spring.basic.annotationdemo.Address">
 		<property name="city" value="Bangalore" />
 		<property name="pincode" value="560068" />
+		<qualifier value="addr"/>
 	</bean>
 	
-	<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor" />
+	
+	<bean id="addr1" class="com.spring.basic.annotationdemo.Address">
+		<property name="city" value="Mysore" />
+		<property name="pincode" value="560069" />
+	</bean>
+	
+	<context:annotation-config/>
+	<context:component-scan base-package="com.spring.basic.annotationdemo" />
 
 </beans>

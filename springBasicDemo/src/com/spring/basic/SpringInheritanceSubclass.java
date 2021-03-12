@@ -48,7 +48,7 @@ public class SpringInheritanceSubclass {
 		System.out.println("..Inhertance Demo..");
 		System.out.println(springInhertanceDemo.getName());
 		System.out.println(springInhertanceDemo2.getName());
-		System.out.println(springInhertanceDemo3.getName());		
+//		System.out.println(springInhertanceDemo3.getName());		
 	}
 	
 	public void showNameList() {

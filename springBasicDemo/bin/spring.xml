@@ -45,7 +45,7 @@
 	</bean>
 
 	<bean id="pointA" class="com.spring.basic.Point">
-		<property name="x" value="0" />
+		<property name="x" value="1000" />
 		<property name="y" value="0" />
 	</bean>
 	
@@ -70,7 +70,7 @@
 	
 	<alias name="circle" alias="circle-alias" />
 	
-	<!--   <bean class="com.spring.basic.BeanPostProceesorDemo" />  -->
+	<bean class="com.spring.basic.BeanPostProceesorDemo" />  
 	
 	<!--   <bean class="com.spring.basic.BeanFactoryPostPPDemo" /> -->
 	

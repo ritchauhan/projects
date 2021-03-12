@@ -1,0 +1,17 @@
+package com.dev.controller;
+
+import com.dev.domain.Topic;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TopicController {
+	
+	@RequestMapping
+	public List<Topic> getTopics() {
+		
+	}
+}

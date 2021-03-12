@@ -65,6 +65,13 @@ public class Circle implements ApplicationContextAware, BeanNameAware, Shape {
 		
 	}
 	
+	public void ShowContextValues() {
+		System.out.println(this.context);
+		Point p = (Point)this.context.getBean("pointA");
+		System.out.println(p.getX());
+		
+	}
+	
 	@Override
 	public void setBeanName(String beanName) {
 		
