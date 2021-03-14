@@ -118,6 +118,19 @@ public class TreeImplementation {
         return treeImplementation.root;
     }
 
+    public static Node sampleTree() {
+        // customizable tree for testing
+        Node node = new Node();
+        node.data = 10;
+        Node leftNode = new Node();
+        leftNode.data = 1;
+        Node leftRightNode = new Node();
+        leftRightNode.data = 15;
+        leftNode.right = leftRightNode;
+        node.left = leftNode;
+        return node;
+    }
+
     public static void main(String[] args) {
         TreeImplementation treeImplementation = new TreeImplementation();
         treeImplementation.add(9);
