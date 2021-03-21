@@ -3,7 +3,7 @@ package com.dev.java.algorithms.searching;
 /**
  * class to demo binary search algorithms
  * Very important - input should always sorted then only we can user binary search
- * this will have complexity O(logn) since we don't need to traverse each node.
+ * this will have complexity O(log n) since we don't need to traverse each node.
  *
  */
 public class BinarySearch {
