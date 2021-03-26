@@ -11,6 +11,8 @@ class LinkNode {
     }
     public LinkNode(int data) {
         this.data = data;
+        this.next = null;
+        this.prev = null;
     }
 }
 
@@ -32,11 +34,15 @@ public class DoublyLinkList {
         }
         LinkNode currentNode = head;
         while (currentNode != null) {
-            linkNode.prev = currentNode;
-            currentNode.next = linkNode;
-            currentNode = linkNode;
+            if (currentNode.next == null) {
+                linkNode.prev = currentNode;
+                currentNode.next = linkNode;
+                currentNode = linkNode;
+                break;
+            } else {
+                currentNode = currentNode.next;
+            }
         }
-        head = currentNode;
     }
 
     void printList () {
@@ -51,6 +57,8 @@ public class DoublyLinkList {
         DoublyLinkList doublyLinkList = new DoublyLinkList();
         doublyLinkList.add(10);
         doublyLinkList.add(20);
+        doublyLinkList.add(30);
+        doublyLinkList.add(40);
         doublyLinkList.printList();
     }
 }
