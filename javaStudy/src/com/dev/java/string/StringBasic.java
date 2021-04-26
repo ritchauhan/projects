@@ -2,6 +2,9 @@ package com.dev.java.string;
 
 import java.util.Locale;
 
+/**
+ * String demo
+ */
 public class StringBasic {
 
     public static void main(String[] args) {
