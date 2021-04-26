@@ -4,6 +4,7 @@ import java.util.*;
 
 /**
  * To test equal and hashcode contract
+ * if hashcode method is not overridden then most of part gives wrong result
  */
 public class EqualAndHashCodeContract {
 
