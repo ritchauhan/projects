@@ -12,7 +12,7 @@ public class PassByValueDemo1 {
 		demo.show(demo1);
 		
 		System.out.println("after name : "+demo1.getName());
-		
+
 		demo.getname();
 		
 	}

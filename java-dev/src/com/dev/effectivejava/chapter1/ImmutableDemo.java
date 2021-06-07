@@ -1,7 +1,5 @@
 package com.dev.effectivejava.chapter1;
 
-import sun.security.jca.GetInstance;
-
 public class ImmutableDemo {
 
 	public static void main(String args[]) {

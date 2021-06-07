@@ -1,4 +1,4 @@
-package com.dev.lambda;
+package com.dev.java8.javabrains.lambda;
 
 public class LambdaBasicDemo {
 	
@@ -11,7 +11,7 @@ public class LambdaBasicDemo {
 		
 		HelloWorldInterface helloWorldInterface = new HelloWorldImpl();
 		
-		HelloWorldInterface helloWorldAnonyms = new HelloWorldInterface() {
+		HelloWorldInterface helloWorldAntonyms = new HelloWorldInterface() {
 			
 			@Override
 			public void greeting() {
@@ -25,7 +25,7 @@ public class LambdaBasicDemo {
 		HelloWorldInterface lambdaDemo = () -> System.out.println("Hello Worlds from lambda!..");
 		
 		lambdaBasicDemo.perform(helloWorldInterface);
-		lambdaBasicDemo.perform(helloWorldAnonyms);
+		lambdaBasicDemo.perform(helloWorldAntonyms);
 		lambdaBasicDemo.perform(lambdaDemo);
 		
 

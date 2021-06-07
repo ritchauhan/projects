@@ -1,4 +1,4 @@
-package com.dev.lambda;
+package com.dev.java8.javabrains.lambda;
 
 public class TimeInterfenceExample {
 	@FunctionalInterface
@@ -7,7 +7,7 @@ public class TimeInterfenceExample {
 	}
 	
 	public static void main(String args[]) {
-		StringLenCalculator stringLenCalculator = (s) -> s.length();
+		StringLenCalculator stringLenCalculator = s -> s.length();
 		System.out.println(stringLenCalculator.getStringLength("Hello World"));
 	}
 

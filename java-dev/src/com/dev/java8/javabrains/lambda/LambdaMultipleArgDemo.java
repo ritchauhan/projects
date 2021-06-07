@@ -1,4 +1,4 @@
-package com.dev.lambda;
+package com.dev.java8.javabrains.lambda;
 
 /**
  * class to show multiple argument lambda expression functionality
