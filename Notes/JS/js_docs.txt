@@ -1,0 +1,25 @@
+Optimization:
+
+https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#3-managing-arguments
+https://richardartoul.github.io/jekyll/update/2015/04/26/hidden-classes.html
+
+Compilation & Interpretation:
+
+https://astexplorer.net/
+
+https://webassembly.org/
+
+Memory leak:
+https://developers.soundcloud.com/blog/garbage-collection-in-redux-applications
+
+Questions:
+
+https://github.com/DopplerHQ/awesome-interview-questions
+
+https://github.com/h5bp/Front-end-Developer-Interview-Questions
+
+https://www.toptal.com/javascript/interview-questions
+
+https://www.codementor.io/@nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z
+
+http://www.thatjsdude.com/interview/js2.html
